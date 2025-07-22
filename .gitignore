@@ -1,19 +1,34 @@
+# Node modules and build output
 node_modules/
-.env
-*.env.*
+dist/
+build/
+coverage/
+tmp/
 logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-dist/
-coverage/
+
+# Environment files
+.env
+*.env.*
+*.local
+
+# OS and editor files
 .DS_Store
+Thumbs.db
 *.swp
 *.swo
-tmp/
-*.local
+
+# IDE/project files
 .vscode/
+.idea/
+.history/
+
+# Dependency lock files (optional, if you want to ignore them)
 package-lock.json
-/.idea/
-/.history/
+yarn.lock
+
+# Test output
+test-output/
