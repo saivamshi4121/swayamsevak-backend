@@ -31,4 +31,4 @@ package-lock.json
 yarn.lock
 
 # Test output
-test-output/
+test-output/    
